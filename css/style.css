@@ -66,6 +66,10 @@ a{
 .flex {
     display: flex;   
 }
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
 .column{
     min-width: 300px;
     text-align: center;
@@ -111,6 +115,10 @@ main > div {
     background-color: #D3D3D3;
     
 }
+.big-img{
+    text-align: center;
+    align-items: center;
+}
 div .blue-square{
     flex-grow: 1;
     min-height: 300px;
@@ -122,15 +130,12 @@ div .red-square{
     flex-grow: 1;
     min-height: 300px;
 }
+
 .reverse{
     flex-direction: row-reverse;
 }
-div .green-square {
-    background-color: #228B22;
-    min-height: 600px;
-    flex-grow: 1;
 
-}
+
 .space-between {
     justify-content: space-between;
     align-items: center;
