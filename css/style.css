@@ -93,11 +93,13 @@ a{
     
 }
 .jumbo{
+    min-height: 600px;
     background-image: url("../img/jumbo.png");
     background-size: cover;
     padding-top: 2rem;
     padding-bottom: 2rem;
     font-size: 20px;
+    color: white;
 
 }
 div .pink-square{
@@ -111,6 +113,19 @@ div .pink-square{
     
     
 }
+svg{
+    background-color: white;
+    color: #F6F6F6;
+    display: block;
+    
+    
+}
+i{
+    padding: 0 .5rem 0 .5rem;
+}
+.rotate{
+    transform: rotate(180deg);
+}
 main .container {
     min-height: 400px;
 
@@ -122,7 +137,7 @@ main > div {
     background-color: #FFFFFF;
 }
 .background-grey{
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
     
 }
 .svg-star{
