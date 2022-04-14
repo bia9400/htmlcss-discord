@@ -62,7 +62,9 @@ a{
 }
 .fouth-button{
     background-color: #8EA1E1;
-    color: white;
+    color: white; 
+    text-align: center;
+    border-radius: 30px;
 }
 
 .container{
@@ -78,7 +80,7 @@ a{
     flex-direction: column;
 }
 .column{
-    min-width: 300px;
+    
     text-align: center;
     flex-grow: 1;
 
@@ -162,6 +164,36 @@ footer{
     background-color: #23272A;
 }
 .first-column{
-    flex-grow: 2;
-    color: #536397;
+    
+    text-align: left;
+    max-width: 300px;
+    
+}
+.color-footer{
+    color: #7289DA;
+}
+footer a {
+    text-align: left;
+    display: block;
+    padding: .5rem .5rem;
+}
+.column div {
+    text-align: left;
+    padding: 8px;
+}
+footer .flex{
+    justify-content: space-between;
+}
+.footer-column{
+    padding-top: 2rem;
+    max-width: 300px;
+}
+.logo-rigt{
+    text-align: center;
+    padding: 10px;
+    
+    
+}
+footer .container:first-child{
+    padding: 3rem 1rem;
 }
